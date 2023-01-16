@@ -1,0 +1,22 @@
+--cpu=Cortex-M4.fp.sp
+".\release opt\stm32f42xxx_43xxx_opt.o"
+".\release opt\main.o"
+".\release opt\blinky.o"
+".\release opt\buttons_f429discovery.o"
+".\release opt\led_f429discovery.o"
+".\release opt\rtx_lib.o"
+".\release opt\rtx_config.o"
+"..\..\..\..\..\..\..\..\..\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS2\RTX\Library\ARM\RTX_CM4F.lib"
+".\release opt\stm32f4xx_hal.o"
+".\release opt\stm32f4xx_hal_cortex.o"
+".\release opt\stm32f4xx_hal_gpio.o"
+".\release opt\stm32f4xx_hal_pwr.o"
+".\release opt\stm32f4xx_hal_pwr_ex.o"
+".\release opt\stm32f4xx_hal_rcc.o"
+".\release opt\stm32f4xx_hal_rcc_ex.o"
+".\release opt\startup_stm32f429xx.o"
+".\release opt\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter ".\Release OPT\Blinky.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Release OPT\Blinky.map" -o ".\Release OPT\Blinky.axf"
