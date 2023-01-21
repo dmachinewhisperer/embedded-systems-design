@@ -1,2 +1,12 @@
 # embedded-systems-design
-all the source files used in all the articles in the embedded-systems-design series can be found here
+
+Brief Introduction
+This project uses the Board Support Packages to interact with the onboard LED on discovery kit
+
+Project Name:  hello-world
+
+Target MCU: STM32F429xx
+
+Develpment Platform: KEIL MDK
+
+Article link: https://hashnode.com/edit/clcc97kwl000408ju3jobb7ms
